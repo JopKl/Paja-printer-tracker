@@ -1,7 +1,13 @@
 # Paja-printer-tracker
 3D printer monitoring software for Vilhonpaja
 
-#Instructions
+# Dependencies
+[Arduino_JSON](https://github.com/arduino-libraries/Arduino_JSON)\
+[HttpClient](https://reference.arduino.cc/reference/en/libraries/httpclient/)\
+[WiFi](https://reference.arduino.cc/reference/en/libraries/wifi/)\
+These libraries can all be downloaded from Arduino IDE library search
+
+# Instructions
 
 1. When deploy set DEBUG flag to 0
 2. When booting up, the device will try to ping the REST API:
