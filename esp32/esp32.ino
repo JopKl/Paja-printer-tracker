@@ -11,9 +11,9 @@
 
 #if DEBUG
   // Define test parameters here
-  #define ssid "Pidgeon"
-  #define password "batteryneeded"
-  #define serverName "http://82.130.26.178:3000/posts"
+  #define ssid ""
+  #define password ""
+  #define serverName ""
   #define DELAY 5000
   
   #define D_SerialBegin(...) Serial.begin(__VA_ARGS__)
